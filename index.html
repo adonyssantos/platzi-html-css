@@ -11,13 +11,19 @@
 <body>
 	<main>
 		<section>
-			<figure>
+			<!-- <figure>
 				<img 
 				src="./pics/tinified/small.jpg" 
 				alt="Meals Image"
 				/>
 				<figcaption>A salad with pepino, tomato, lemon, and more...</figcaption>
-			</figure>
+			</figure> -->
+			<!-- https://www.w3schools.com/tags/tag_picture.asp -->
+			<picture>
+				<source media="(min-width:650px)" srcset="./pics/tinified/mediun.jpg">
+				<source media="(min-width:465px)" srcset="./pics/tinified/small.jpg">
+				<img src="./pics/tinified/large.jpg" alt="Flowers" style="width:auto;">
+			  </picture>
 		</section>
 	</main>
 </body>
