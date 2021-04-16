@@ -4,30 +4,22 @@
 	<meta charset="UTF-8" />
 	<meta name="description" content="This page show a list of meals" />
 	<meta name="robots" content="index, follow">
-	<title>Meals Form</title>
+	<title>Meals Form (Select)</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
 	<main>
 		<form action="">
-			<label for="name">
-				<span>Name:</span>
-				<input type="text" id="name" name="name" autocomplete="name" required>
+			<label for="fruts">
+				<span>Chose one frut:</span>
+				<select name="fruts" id="fruts">
+					<option value="apple">Apple</option>
+					<option value="pear">Pear</option>
+					<option value="banana">Banana</option>
+					<option value="cherry">Cherry</option>
+				</select>
 			</label>
-			<label for="email">
-				<span>Email:</span>
-				<input type="email" id="email" name="email" autocomplete="email" required>
-			</label>
-			<label for="contry">
-				<span>Contry:</span>
-				<input type="text" id="contry" name="contry" autocomplete="country" required>
-			</label>
-			<label for="code">
-				<span>Code:</span>
-				<input type="text" id="code" name="code" autocomplete="postal-code" required>
-			</label>
-			<input type="submit">
 		</form>
 	</main>
 </body>
