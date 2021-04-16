@@ -9,45 +9,26 @@
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-	<form action="">
-		<!-- <label for="name">
-			<span>What's your name?</span>
-			<input type="text" id="name">
-		</label>
-		<label for="times-eat">
-			<span>How many times to eat a day?</span>
-			<input type="number" id="times-eat">
-		</label>
-		<label for="favorite-food">
-			<span>What's your favorite food?</span>
-			<input type="text" id="favorite-food">
-		</label>
-	</form> -->
-	<!-- <form action="">
-		<label for="hour">
-			<span>Hour</span>
-			<input type="time" id="hour" name="hour">
-		</label>
-		<label for="day">
-			<span>Day</span>
-			<input type="date" id="day" name="day">
-		</label>
-		<label for="week">
-			<span>Week</span>
-			<input type="week" id="week" name="week">
-		</label>
-		<label for="month">
-			<span>Month</span>
-			<input type="month" id="month" name="month">
-		</label>
-		<input type="submit">
-	</form> -->
-	<form action="">
-		<label for="calendar">
-			<span>Calendar</span>
-			<input type="datetime-local" name="calendar" id="calendar">
-		</label>
-		<input type="submit">
-	</form>
+	<main>
+		<form action="">
+			<label for="name">
+				<span>Name:</span>
+				<input type="text" id="name" name="name" autocomplete="name" required>
+			</label>
+			<label for="email">
+				<span>Email:</span>
+				<input type="email" id="email" name="email" autocomplete="email" required>
+			</label>
+			<label for="contry">
+				<span>Contry:</span>
+				<input type="text" id="contry" name="contry" autocomplete="country" required>
+			</label>
+			<label for="code">
+				<span>Code:</span>
+				<input type="text" id="code" name="code" autocomplete="postal-code" required>
+			</label>
+			<input type="submit">
+		</form>
+	</main>
 </body>
 </html>
