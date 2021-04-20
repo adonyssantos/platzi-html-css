@@ -42,3 +42,7 @@ body {
 .main-nav__item a:active {
   background-color: #00e732;
 }
+
+.main-nav__item a::after {
+  content: " | ";
+}
