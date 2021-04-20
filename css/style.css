@@ -8,11 +8,37 @@ body {
 
 /* Class */
 .container {
-	background-color: #333333;
+  background-color: #333333;
 }
 
 /* Id */
 #menu {
-	background-color: #eeeeee;
-	color: #242424;
+  background-color: #eeeeee;
+  color: #242424;
+}
+
+/* Menu */
+.main-nav {
+  margin-top: 10px;
+  padding-left: 0;
+  list-style-type: none;
+  background-color: #00ff37;
+}
+
+.main-nav__item {
+  display: inline-block;
+  padding: 5px;
+
+}
+
+.main-nav__item a {
+  color: #f2f2f2;
+  background-color: #00ff37;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  background-color: #00e732;
 }
