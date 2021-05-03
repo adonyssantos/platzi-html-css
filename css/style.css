@@ -15,10 +15,10 @@ body {
 }
 
 /* Id */
-#menu {
+/* #menu {
   background-color: #eeeeee;
   color: #242424;
-}
+} */
 
 /* Menu */
 .main-nav {
@@ -48,6 +48,10 @@ body {
 
 .main-nav__item a::after {
   content: " | ";
+}
+
+.important a {
+  background-color: red;
 }
 
 /* Box Model */
