@@ -32,6 +32,28 @@
 }
 ```
 
+The correct form to use Media Queries using Mobile First is:
+
+```html
+<!-- Mobile -->
+<link rel="stylesheet" href="./css/style.css" />
+
+<!-- Tablet -->
+<link
+  rel="stylesheet"
+  href="./css/tablet.css"
+  media="scren and (min-width: 768px)"
+/>
+
+<!-- Desktop -->
+<link
+  rel="stylesheet"
+  href="./css/desktop.css"
+  media="scren and (min-width: 1280px)"
+/>
+
+```
+
 **Break Points:** when the screen is of a certain size, a change will be generated to reposition or resize the containers.
 
 Website to see the devices size: [mydevice.io](https://www.mydevice.io/)
