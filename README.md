@@ -16,7 +16,7 @@
 - Layout Shifter
 - Column Drop
 
-** Media Queries: ** are conditional. It is not the best practice but applying it to the CSS:
+**Media Queries:** are conditional. It is not the best practice but applying it to the CSS:
 
 ```css
 @media (min-width: 480px;) {
@@ -32,4 +32,4 @@
 }
 ```
 
-** Break Points: ** when the screen is of a certain size, a change will be generated to reposition or resize the containers.
+**Break Points:** when the screen is of a certain size, a change will be generated to reposition or resize the containers.
